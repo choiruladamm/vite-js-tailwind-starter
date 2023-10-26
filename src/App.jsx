@@ -1,35 +1,41 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from "react";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="layout relative flex min-h-screen flex-col items-center justify-center gap-6 text-center">
+      <div className="flex gap-4">
+        {/* <Icons.bolt className="logo-bolt h-16 w-16 animate-pulse cursor-pointer" />
+        <Icons.react className="logo-react animate-spin-slow h-16 w-16 cursor-pointer text-sky-500" /> */}
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+      <div className="flex flex-col items-center gap-4 md:gap-2">
+        <h1 className="text-3xl font-bold">
+          React.js + Tailwind CSS + Javascript Starter
+        </h1>
+        <p className="max-w-3xl text-sm text-gray-600 md:text-base">
+          A starter for React.js, Tailwind CSS, and Javascript.
         </p>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/choiruladamm/vite-js-tailwind-starter"
+          className="cursor-pointer font-semibold text-slate-900 hover:text-sky-600 hover:underline"
+        >
+          See the repository
+        </a>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+      <footer className="absolute bottom-2 flex gap-1 text-gray-600">
+        © 2023 By
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://choiruladamm.vercel.app/"
+          className="cursor-pointer font-semibold hover:text-sky-600 hover:underline"
+        >
+          Choirul Adamm
+        </a>
+      </footer>
+    </div>
+  );
+};
 
-export default App
+export default App;
