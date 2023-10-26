@@ -19,6 +19,6 @@ module.exports = {
     'no-case-declarations': 'off',
     'no-empty-pattern': 'off',
     'no-unused-vars': 'off',
-    'no-undef': 'off',
+    'react/prop-types': 'off'
   },
 }
