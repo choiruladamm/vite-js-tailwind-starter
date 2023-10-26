@@ -1,12 +1,12 @@
 <div align="center">
-  <h2>⚡️ vite-js-tailwind-starter</h2>
+  <h2>💫 vite-js-tailwind-starter</h2>
   <p>React + Tailwind CSS + Javascript starter template.</p>
   <p>Made by <a href="https://choiruladamm.vercel.app/">Choirul Adamm</a></p>
 </div>
 
 ## Features (will keep updating new features)
 
-This repository is 🔋 battery packed with:
+This repository packed with:
 
 - ⚡️ Vite
 - ⚛️ React 18
