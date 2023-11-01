@@ -8,4 +8,50 @@
   * {
     font-family: Inter;
   }
+
+  .layout {
+    max-width: 68.75rem; /* 1100px */
+    @apply mx-auto w-11/12;
+  }
+
+  .logo-react:hover {
+    filter: drop-shadow(0 0 3em #61dafbaa);
+  }
+
+  .logo-bolt:hover {
+    filter: drop-shadow(0 0 3em #faa424);
+  }
+
+  .h0 {
+    @apply text-3xl font-bold md:text-5xl;
+  }
+
+  h1,
+  .h1 {
+    @apply text-2xl font-bold md:text-4xl;
+  }
+
+  h2,
+  .h2 {
+    @apply text-xl font-bold md:text-3xl;
+  }
+
+  h3,
+  .h3 {
+    @apply text-lg font-bold md:text-2xl;
+  }
+
+  h4,
+  .h4 {
+    @apply text-base font-bold md:text-lg;
+  }
+
+  body,
+  .p {
+    @apply text-sm md:text-base;
+  }
+
+  .box {
+    @apply flex flex-col gap-3 rounded-lg border border-gray-400 p-7;
+  }
 }
